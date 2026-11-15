@@ -25,4 +25,4 @@ client.on('messageCreate', async message => {
     }
 });
 
-client.login('لتوكن_هنا');
+client.login(process.env.TOKEN);
